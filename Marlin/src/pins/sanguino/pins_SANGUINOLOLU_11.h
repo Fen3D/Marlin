@@ -52,9 +52,9 @@
  *
  */
 
-#if !defined(__AVR_ATmega644P__) && !defined(__AVR_ATmega1284P__)
-  #error "Oops! Select 'Sanguino' in 'Tools > Boards' and 'ATmega644P' or 'ATmega1284P' in 'Tools > Processor.'"
-#endif
+//#if !defined(__AVR_ATmega644P__) && !defined(__AVR_ATmega1284P__)
+  //#error "Oops! Select 'Sanguino' in 'Tools > Boards' and 'ATmega644P' or 'ATmega1284P' in 'Tools > Processor.'"
+//#endif
 
 #ifndef BOARD_INFO_NAME
   #define BOARD_INFO_NAME "Sanguinololu <1.2"

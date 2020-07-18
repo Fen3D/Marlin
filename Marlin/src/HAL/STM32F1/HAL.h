@@ -77,6 +77,8 @@
   #define MSerial5  Serial4
 #endif
 
+#define SERIAL_PORT 1
+
 #if SERIAL_PORT == 0
   #error "SERIAL_PORT cannot be 0. (Port 0 does not exist.) Please update your configuration."
 #elif SERIAL_PORT == -1
