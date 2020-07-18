@@ -76,9 +76,9 @@
  *
  */
 
-#ifndef __AVR_ATmega644__
-  #error "Oops! Select 'Sanguino' in 'Tools > Board' and ATmega644 in 'Tools > Processor.'"
-#endif
+//#ifndef __AVR_ATmega644__
+  //#error "Oops! Select 'Sanguino' in 'Tools > Board' and ATmega644 in 'Tools > Processor.'"
+//#endif
 
 #define BOARD_INFO_NAME "Alpha OMCA"
 
